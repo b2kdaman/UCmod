@@ -1,0 +1,13 @@
+UltrawideFix/artifacts/
+build/
+*.next.dll
+*.log
+*.obj
+*.lib
+*.exp
+*.pdb
+__pycache__/
+mono.original.dll
+uc.exe
+**/diagnostics/
+docs/publication-proof.png

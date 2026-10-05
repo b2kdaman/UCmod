@@ -1,0 +1,9 @@
+Installed: 3440x1440, 120 degree horizontal gameplay FOV, height-fitted UI.
+Verified: menu mouse clicks, complete equipment panel, gameplay HUD, full-width world rendering.
+ToggleADS=true is installed and enabled. Single tap stays aimed after release; second tap exits.
+Retested these actions after death/retry in Village (S); user also confirmed both actions work.
+Fixed live-reload assembly caching by building each ADS extension with a unique assembly identity.
+Pause/focus, death, sprint and non-gun reset logic is implemented; not all reset paths or weapons have been exercised.
+Known visual limitation: some transition/death dimming overlays remain centered at 16:9.
+Original runtime backup: uc_Data\Mono\mono.original.dll
+Rollback: close game and run UltrawideFix\Restore-Original.ps1.
